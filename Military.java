@@ -1,9 +1,10 @@
 import java.util.ArrayList;
-public interface Military{
-  public void country();
-  public void information();
-  public void dressCode();
-  public void progress();
-  public void orientation();
-  public void register();
+public abstract interface Military{
+  
+  public abstract void country();
+  public abstract void information();
+  public abstract void dressCode();
+  public abstract void progress();
+  public abstract void orientation();
+  public abstract void register();
 }
